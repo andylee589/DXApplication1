@@ -339,9 +339,8 @@
 		<col def="S0">ISDotNetInstallerArgsCommit</col>
 		<col def="S0">ISDotNetInstallerArgsUninstall</col>
 		<col def="S0">ISDotNetInstallerArgsRollback</col>
-		<row><td>ISX_DEFAULTCOMPONENT</td><td>{2C0DEE96-4D03-4FAA-8EAD-6CBB47F898CE}</td><td>SOURCE</td><td>2</td><td/><td/><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
+		<row><td>NewComponent1</td><td>{FBD40B91-96EC-4B9A-B43B-935DF4503174}</td><td>INSTALLDIR</td><td>2</td><td/><td/><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
 		<row><td>Schedule_Helper.Primary_output</td><td>{508FC263-3F5C-4B73-A265-114E0200CA8E}</td><td>INSTALLDIR</td><td>2</td><td/><td>schedule_helper.primary_outp</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
-		<row><td>Schedule_Helper.Source_Files</td><td>{ACCA94E3-89F4-44FB-84C1-CC7B009F9047}</td><td>SOURCE</td><td>2</td><td/><td>schedule_helper.source_files</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
 	</table>
 
 	<table name="Condition">
@@ -1050,7 +1049,7 @@
 	<table name="CreateFolder">
 		<col key="yes" def="s72">Directory_</col>
 		<col key="yes" def="s72">Component_</col>
-		<row><td>SOURCE</td><td>ISX_DEFAULTCOMPONENT</td></row>
+		<row><td>INSTALLDIR</td><td>NewComponent1</td></row>
 	</table>
 
 	<table name="CustomAction">
@@ -1160,7 +1159,6 @@
 		<row><td>ProgramFilesFolder</td><td>TARGETDIR</td><td>.:PROGRA~1|program files</td><td/><td>0</td><td/></row>
 		<row><td>ProgramMenuFolder</td><td>TARGETDIR</td><td>.:Programs</td><td/><td>3</td><td/></row>
 		<row><td>RecentFolder</td><td>TARGETDIR</td><td>.:Recent</td><td/><td>0</td><td/></row>
-		<row><td>SOURCE</td><td>INSTALLDIR</td><td>source</td><td/><td>0</td><td/></row>
 		<row><td>SendToFolder</td><td>TARGETDIR</td><td>.:SendTo</td><td/><td>3</td><td/></row>
 		<row><td>StartMenuFolder</td><td>TARGETDIR</td><td>.:STARTM~1|Start Menu</td><td/><td>3</td><td/></row>
 		<row><td>StartupFolder</td><td>TARGETDIR</td><td>.:StartUp</td><td/><td>3</td><td/></row>
@@ -1866,9 +1864,8 @@
 	<table name="FeatureComponents">
 		<col key="yes" def="s38">Feature_</col>
 		<col key="yes" def="s72">Component_</col>
-		<row><td>AlwaysInstall</td><td>ISX_DEFAULTCOMPONENT</td></row>
+		<row><td>AlwaysInstall</td><td>NewComponent1</td></row>
 		<row><td>AlwaysInstall</td><td>Schedule_Helper.Primary_output</td></row>
-		<row><td>AlwaysInstall</td><td>Schedule_Helper.Source_Files</td></row>
 	</table>
 
 	<table name="File">
@@ -1884,7 +1881,6 @@
 		<col def="I4">ISAttributes</col>
 		<col def="S72">ISComponentSubFolder_</col>
 		<row><td>schedule_helper.primary_outp</td><td>Schedule_Helper.Primary_output</td><td>Schedule Helper.Primary output</td><td>0</td><td/><td/><td/><td>1</td><td>&lt;Schedule Helper&gt;|Built</td><td>3</td><td/></row>
-		<row><td>schedule_helper.source_files</td><td>Schedule_Helper.Source_Files</td><td>Schedule Helper.Source Files</td><td>0</td><td/><td/><td/><td>1</td><td>&lt;Schedule Helper&gt;|SourceFiles</td><td>3</td><td/></row>
 	</table>
 
 	<table name="FileSFPCatalog">
@@ -2028,9 +2024,8 @@
 		<col def="S0">FTPLocation</col>
 		<col def="S0">HTTPLocation</col>
 		<col def="S0">Miscellaneous</col>
-		<row><td>ISX_DEFAULTCOMPONENT</td><td/><td/><td>_68EDC7BA_554A_4EFB_AECE_55711B5FC9CE_FILTER</td><td/><td/><td/><td/></row>
+		<row><td>NewComponent1</td><td/><td/><td>_8A842C95_8B87_45F7_BF2B_EDE675817DC6_FILTER</td><td/><td/><td/><td/></row>
 		<row><td>Schedule_Helper.Primary_output</td><td/><td/><td>_9F7C755E_3552_4583_9C58_900616F44225_FILTER</td><td/><td/><td/><td/></row>
-		<row><td>Schedule_Helper.Source_Files</td><td/><td/><td>_32AC8844_1AAF_4A9A_961C_274664EAB827_FILTER</td><td/><td/><td/><td/></row>
 	</table>
 
 	<table name="ISCustomActionReference">
@@ -2648,7 +2643,7 @@
 		<col def="I2">Encoded</col>
 		<col def="S0">Comment</col>
 		<col def="I4">TimeStamp</col>
-		<row><td>COMPANY_NAME</td><td>1033</td><td>Citrix</td><td>0</td><td/><td>-920471377</td></row>
+		<row><td>COMPANY_NAME</td><td>1033</td><td>Citrix</td><td>0</td><td/><td>-920487153</td></row>
 		<row><td>DN_AlwaysInstall</td><td>1033</td><td>Always Install</td><td>0</td><td/><td>-920486898</td></row>
 		<row><td>IDPROP_EXPRESS_LAUNCH_CONDITION_COLOR</td><td>1033</td><td>The color settings of your system are not adequate for running [ProductName].</td><td>0</td><td/><td>-920486898</td></row>
 		<row><td>IDPROP_EXPRESS_LAUNCH_CONDITION_DOTNETVERSION40CLIENT</td><td>1033</td><td>Microsoft .NET Framework 4.0 Client Package or greater needs to be installed for this installation to continue.</td><td>0</td><td/><td>-920476050</td></row>
@@ -3461,7 +3456,7 @@
 		<row><td>IDS_PROGMSG_XML_UPDATE_FILE</td><td>1033</td><td>Updating XML file %s...</td><td>0</td><td/><td>-920486898</td></row>
 		<row><td>IDS_SETUPEXE_EXPIRE_MSG</td><td>1033</td><td>This setup works until %s. The setup will now exit.</td><td>0</td><td/><td>-920486898</td></row>
 		<row><td>IDS_SETUPEXE_LAUNCH_COND_E</td><td>1033</td><td>This setup was built with an evaluation version of InstallShield and can only be launched from setup.exe.</td><td>0</td><td/><td>-920486898</td></row>
-		<row><td>IDS_SHORTCUT_DISPLAY_NAME1</td><td>1033</td><td>Launch |Built</td><td>0</td><td/><td>-920482674</td></row>
+		<row><td>IDS_SHORTCUT_DISPLAY_NAME1</td><td>1033</td><td>Matrix Helper</td><td>0</td><td/><td>-920495313</td></row>
 		<row><td>IDS_SQLBROWSE_INTRO</td><td>1033</td><td>From the list of servers below, select the database server you would like to target.</td><td>0</td><td/><td>-920486898</td></row>
 		<row><td>IDS_SQLBROWSE_INTRO_DB</td><td>1033</td><td>From the list of catalog names below, select the database catalog you would like to target.</td><td>0</td><td/><td>-920486898</td></row>
 		<row><td>IDS_SQLBROWSE_INTRO_TEMPLATE</td><td>1033</td><td>[IS_SQLBROWSE_INTRO]</td><td>0</td><td/><td>-920486898</td></row>
@@ -3750,9 +3745,10 @@
 		<row><td>IDS__TargetReq_DESC_PROCESSOR</td><td>1033</td><td>The processor is not adequate for running [ProductName].</td><td>0</td><td/><td>-920486898</td></row>
 		<row><td>IDS__TargetReq_DESC_RAM</td><td>1033</td><td>The amount of RAM is not adequate for running [ProductName].</td><td>0</td><td/><td>-920486898</td></row>
 		<row><td>IDS__TargetReq_DESC_RESOLUTION</td><td>1033</td><td>The screen resolution is not adequate for running [ProductName].</td><td>0</td><td/><td>-920486898</td></row>
-		<row><td>ID_STRING1</td><td>1033</td><td>http://www.Citrix.com</td><td>0</td><td/><td>-920471377</td></row>
-		<row><td>ID_STRING2</td><td>1033</td><td>Citrix</td><td>0</td><td/><td>-920471377</td></row>
+		<row><td>ID_STRING1</td><td>1033</td><td>http://www.Citrix.com</td><td>0</td><td/><td>-920487153</td></row>
+		<row><td>ID_STRING2</td><td>1033</td><td>Citrix</td><td>0</td><td/><td>-920487153</td></row>
 		<row><td>ID_STRING3</td><td>1033</td><td>Launch |Built</td><td>0</td><td/><td>-920474482</td></row>
+		<row><td>ID_STRING4</td><td>1033</td><td/><td>0</td><td/><td>-920478929</td></row>
 		<row><td>IIDS_UITEXT_FeatureUninstalled</td><td>1033</td><td>This feature will remain uninstalled.</td><td>0</td><td/><td>-920486898</td></row>
 	</table>
 
@@ -3861,6 +3857,8 @@
 		<col def="S255">ISBuildSourcePath</col>
 		<col def="I2">ISIconIndex</col>
 		<row><td>ARPPRODUCTICON.exe</td><td/><td>&lt;ISProductFolder&gt;\redist\Language Independent\OS Independent\setupicon.ico</td><td>0</td></row>
+		<row><td>UNINST_Uninstall_M_8ABF843B8F7E4F9B9883E2DA981983B9.exe</td><td/><td>C:\Program Files (x86)\InstallShield\2013LE\Redist\Language Independent\OS Independent\uninstall.ico</td><td>0</td></row>
+		<row><td>UNINST_Uninstall_M_A4B823CFE1DF493DA5ECA0AD4F8B0071.exe</td><td/><td>C:\Program Files (x86)\InstallShield\2013LE\Redist\Language Independent\OS Independent\uninstall.ico</td><td>0</td></row>
 	</table>
 
 	<table name="IniFile">
@@ -3993,7 +3991,7 @@ UwBpAG4AZwBsAGUASQBtAGEAZwBlAAEARQB4AHAAcgBlAHMAcwA=
 		<row><td>ISTheme</td><td>InstallShield Blue.theme</td></row>
 		<row><td>ISUSLock</td><td>{F00FD259-D4E7-4DCF-A835-828860572578}</td></row>
 		<row><td>ISUSSignature</td><td>{4AE88F58-4CF1-4A87-B383-ADC39FC72005}</td></row>
-		<row><td>ISVisitedViews</td><td>viewAssistant,viewUI,viewRealSetupDesign,viewRelease,viewSupportFiles,viewISToday</td></row>
+		<row><td>ISVisitedViews</td><td>viewAssistant,viewUI,viewRealSetupDesign,viewRelease,viewSupportFiles,viewISToday,viewAppFiles</td></row>
 		<row><td>Limited</td><td>1</td></row>
 		<row><td>LockPermissionMode</td><td>1</td></row>
 		<row><td>MsiExecCmdLineOptions</td><td/></row>
@@ -4445,6 +4443,7 @@ UwBpAG4AZwBsAGUASQBtAGEAZwBlAAEARQB4AHAAcgBlAHMAcwA=
 		<col def="i2">InstallMode</col>
 		<row><td>FileKey1</td><td>Schedule_Helper.Primary_output</td><td/><td>citrix</td><td>2</td></row>
 		<row><td>FileKey2</td><td>Schedule_Helper.Primary_output</td><td/><td>matrix_1_matrix_helper</td><td>2</td></row>
+		<row><td>UNINST_Uninstall_Matrix_Helper</td><td>NewComponent1</td><td/><td>matrix_1_matrix_helper</td><td>2</td></row>
 		<row><td>_Built</td><td>Schedule_Helper.Primary_output</td><td/><td>matrix_1_matrix_helper</td><td>2</td></row>
 	</table>
 
@@ -4531,6 +4530,8 @@ UwBpAG4AZwBsAGUASQBtAGEAZwBlAAEARQB4AHAAcgBlAHMAcwA=
 		<col def="S255">ISComments</col>
 		<col def="S255">ISShortcutName</col>
 		<col def="I4">ISAttributes</col>
+		<row><td>UNINST_Uninstall_Matrix_Helper</td><td>matrix_1_matrix_helper</td><td>UNINST|Uninstall Matrix Helper</td><td>NewComponent1</td><td>[SystemFolder]msiexec.exe</td><td>/x {22EB66E6-1C13-4DAA-91E7-8A8D19F65ADA}</td><td/><td/><td>UNINST_Uninstall_M_8ABF843B8F7E4F9B9883E2DA981983B9.exe</td><td>0</td><td>1</td><td/><td/><td/><td/><td/><td/><td/><td/></row>
+		<row><td>UNINST_Uninstall_Matrix_Helper1</td><td>DesktopFolder</td><td>UNINST|Uninstall Matrix Helper</td><td>NewComponent1</td><td>[SystemFolder]msiexec.exe</td><td>/x {22EB66E6-1C13-4DAA-91E7-8A8D19F65ADA}</td><td/><td/><td>UNINST_Uninstall_M_A4B823CFE1DF493DA5ECA0AD4F8B0071.exe</td><td>0</td><td>1</td><td/><td/><td/><td/><td/><td/><td/><td/></row>
 		<row><td>_Built</td><td>matrix_1_matrix_helper</td><td>##IDS_SHORTCUT_DISPLAY_NAME1##</td><td>Schedule_Helper.Primary_output</td><td>AlwaysInstall</td><td/><td/><td/><td/><td/><td>1</td><td/><td/><td/><td/><td/><td/><td/><td/></row>
 		<row><td>_Built1</td><td>DesktopFolder</td><td>##IDS_SHORTCUT_DISPLAY_NAME1##</td><td>Schedule_Helper.Primary_output</td><td>AlwaysInstall</td><td/><td/><td/><td/><td/><td>1</td><td/><td/><td/><td/><td/><td/><td/><td/></row>
 	</table>
